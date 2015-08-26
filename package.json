@@ -1,0 +1,34 @@
+{
+  "name": "sinonjs-test-examples",
+  "description": "Selenium Webdriver example using a dynamic list",
+  "author": "Thomas Junghans <thomas.junghans@gmail.com>",
+  "version": "0.0.0",
+  "main": "./lib/my-lib",
+  "scripts": {
+    "test:browser": "mochify",
+    "watch:browser": "npm run test:browser -- --watch",
+    "lint": "jslint --edition=latest --color ./lib/*.js ./test/*.js",
+    "pretest": "npm run lint",
+    "test": "npm run test:browser"
+  },
+  "dependencies": {
+    "jquery": "^2.0",
+    "jslint": "^0.8",
+    "mochify": "^2.6",
+    "sinon": "^1.15"
+  },
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjunghans/sinonjs-test-examples"
+  },
+  "bugs": {
+    "url": "https://github.com/tjunghans/sinonjs-test-examples/issues"
+  },
+  "licences": {
+    "type": "MIT"
+  }
+}
